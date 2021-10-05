@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel=stylesheet href="mi-css.css">
 </head>
 <body>
+    <div class="formProductos">
+        <p class="formProductos__p">Fabricar Producto</p>
+       <form>
+           <input id="productName" class="formProductos__form--input" type="text" placeholder="nombre de producto" required>
+           <input id="productId" class="formProductos__form--input" type="number" placeholder="id del producto" required>
+           <input id="productClass" class="formProductos__form--input" type="text" placeholder="clase de producto">
+           <input id="productPrice" class="formProductos__form--input" type="number" placeholder="precio">
+           <input id="btnGuardar" class="formProductos__form--input" type="submit">
+           <input type="reset">
+       </form>
+    </div>
     <script src="mijs.js">
         // Algoritmo, en programación un algoritmo es un conjunto de procedimientos
         // o funciones ordenadas qeu se necesitan para realizar cierta operación o acción.

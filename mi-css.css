@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.formProductos{
+    background-color: cornflowerblue;
+    width: 50vw;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.formProductos__p{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.formProductos__form--input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.contenedor{
+background-color: cornflowerblue;
+color: black;
+width: 100vw;
+height: auto;
+}
+
+.div__card{
+background-color: cornflowerblue;
+border-radius: 5px;
+border:2px solid white;
+width: 200px;
+height: 150px;
+margin-bottom: 10px;
+padding-left: 12px;
+padding-top: 5px;
+}
+
+.div__card--p{
+    color:white;
+    margin: 0px;
+}
